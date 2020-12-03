@@ -22,7 +22,7 @@ void Day01Challenge1::Execute()
 
      std::vector<int> numbers;
 
-     std::ifstream file("Data/Challenge1Data.txt");
+     std::ifstream file("Data/Day1.txt");
      std::string line;
      while (std::getline(file, line))
      {
