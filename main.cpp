@@ -4,6 +4,7 @@
 #include "Days/Day02Challenge1.hpp"
 #include "Days/Day02Challenge2.hpp"
 #include "Days/Day03Challenge1.hpp"
+#include "Days/Day03Challenge2.hpp"
 
 #include <iostream>
 #include <string>
@@ -35,8 +36,12 @@ int main()
 
     //Day 3
     //Challenge 1
-    auto day03Chal01 = std::make_unique<Day03Challenge1>();
-    day03Chal01->Execute();
+    //auto day03Chal01 = std::make_unique<Day03Challenge1>();
+    //day03Chal01->Execute();
+
+    //Challenge 2
+    auto day03Chal02 = std::make_unique<Day03Challenge2>();
+    day03Chal02->Execute();
 
     return 0; // result unused?
 
