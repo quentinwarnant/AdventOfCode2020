@@ -13,8 +13,8 @@
 //#include "Days/Day06Challenge2.hpp"
 //#include "Days/Day07Challenge1.hpp"
 //#include "Days/Day07Challenge2.hpp"
-#include "Days/Day08Challenge1.hpp"
-//#include "Days/Day08Challenge2.hpp"
+//#include "Days/Day08Challenge1.hpp"
+#include "Days/Day08Challenge2.hpp"
 
 #include <iostream>
 #include <string>
@@ -89,11 +89,11 @@ int main()
 
     //Day 8
     //Challenge 1
-    auto day08Chal01 = std::make_unique<Day08Challenge1>();
-    day08Chal01->Execute();
+    //auto day08Chal01 = std::make_unique<Day08Challenge1>();
+    //day08Chal01->Execute();
 
-    //auto day08Chal02 = std::make_unique<Day08Challenge2>();
-    //day08Chal02->Execute();
+    auto day08Chal02 = std::make_unique<Day08Challenge2>();
+    day08Chal02->Execute();
 
 
     return 0; // result unused?
